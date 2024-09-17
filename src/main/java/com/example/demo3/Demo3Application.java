@@ -18,7 +18,7 @@ public class Demo3Application {
 		
 		@GetMapping("/books")
 		public String getBook() {
-			return "Book1";
+			return "Book1,Book2,Book3";
 		}
 	}
 
